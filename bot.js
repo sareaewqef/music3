@@ -263,7 +263,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }); 
    client.on('message', msg => {
 
-    if (msg.content == '1-join') {
+    if (msg.content == '3-join') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
