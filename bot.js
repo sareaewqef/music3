@@ -273,7 +273,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 }
 })
 client.on('ready', () => {
-    client.channels.get("516144936937324545").join(); 
+    client.channels.get("516145295474819073").join(); 
     });
 
 client.login(process.env.BOT_TOKEN); 
